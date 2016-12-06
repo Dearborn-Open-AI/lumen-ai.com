@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Lumen Helpdesk"
+title                    : "Lumen AI"
 title_separator          : "-"
-name                     : "Lumen Helpdesk"
+name                     : "Lumen AI"
 description              : "Automatic helpdesk chatbot."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -239,7 +239,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: true
       comments: # true
       share: true
